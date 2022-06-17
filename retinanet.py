@@ -545,7 +545,6 @@ def main(args=None):
 
     # start training
     return training_model.fit(
-        generator=train_generator,
         steps_per_epoch=args.steps,
         epochs=args.epochs,
         verbose=1,
